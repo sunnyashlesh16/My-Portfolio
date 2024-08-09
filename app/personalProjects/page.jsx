@@ -27,16 +27,10 @@ Developed route handlers for POST operations, directly accessing the database fr
 Managed real-time data synchronization between server and client components, ensuring a responsive and up-to-date user experience.`,
         stack:[
             {
-                name: "HTML-5"
-            },
-            {
-                name: "CSS-3"
-            },
-            {
                 name: "JavaScript"
             },
             {
-                name: "Supbase"
+                name: "Supabase"
             },
             {
                 name: "Next.js"
@@ -46,9 +40,6 @@ Managed real-time data synchronization between server and client components, ens
             },
             {
                 name:"stripe"
-            },
-            {
-                name:"API"
             }
         ],
         live: "https://beat-box-eight.vercel.app/",
@@ -76,15 +67,15 @@ Incorporated chat history management and caching with Upstash Redis for improved
                 name: "LangChain"
             },
             {
-                name: "Gemini Ai"
+                name: "GeminiAi"
             },
             {
-                name: "AstraDB & Redis(Upstash)"
+                name: "AstraDB & Redis"
             }
 
         ],
         live: "/",
-        github: "",
+        github: "https://github.com/sunnyashlesh16/My-Portfolio",
     },
 ]
 
@@ -109,7 +100,7 @@ const Work = () => {
                             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent-hover transition-all duration-500 capitalize">
                                 {project.category}
                             </h2>
-                            <ul className="flex gap-4">
+                            <ul className="flex gap-4 xl:gap-0">
                                 {project.stack.map((item, index) => {
                                     return (
                                         <li key={index} className="text-xl text-accent-hover">
@@ -156,12 +147,7 @@ const Work = () => {
                                     <SwiperSlide key={index} className="w-full">
                                         <div className=" justify-center items-center bg-primary">                                          
                                             <ScrollArea className="h-[400px]">
-                                                {/* {projects.length === index + 1 ?  (
-                                                        <>
-                                                        {project.description} <Link className="text-accent-hover hover:underline"href="/contact">Contact Me</Link>
-                                                        </>
-                                                    )  : project.description } */}
-                                                    {project.description}
+                                                {project.description}
                                             </ScrollArea>
                                         </div>
                                     </SwiperSlide>

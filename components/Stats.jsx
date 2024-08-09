@@ -1,6 +1,7 @@
 "use client";
 
 import CountUp from "react-countup"
+//I have solved 44 + leetcode problems, 6+ projects, and have 2+ years of experience.
 
 const stats = [
     {
@@ -20,6 +21,7 @@ const stats = [
         text: "Leetcode Problems",
     },
 ];
+
 
 const Stats = () => {
     return (

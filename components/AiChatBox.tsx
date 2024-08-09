@@ -87,7 +87,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
               <p className="text-sm text-white/40">
                 PS: If you want to learn how to build your own AI chatbot, check
                 out my{" "}
-                <a className="text-sky-500 hover:underline" href="github.com">
+                <a className="text-sky-500 hover:underline" href="https://github.com/sunnyashlesh16/My-Portfolio">
                   GitHub Link
                 </a>
                 for sourcecode.
