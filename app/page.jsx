@@ -25,9 +25,9 @@ const Home = () => {
                   Hello I'm <br/> <span className="text-accent">Sai Sunny Aashlesh Togarucheeti</span>
                 </h1>
                 <p className="max-w-[600px] mb-6 text-white/80">
-                a dynamic software engineer with a educational background, including an MS in Computer Science from the University at Buffalo.
+                a dynamic software engineer having 2 years of experience with a educational background, including an MS in Computer Science from the University at Buffalo.
                 With hands-on experience in front-end development, and automation scripting across reputable companies like Caterpillar India and Cognizant.
-                Also, excited to get my hands dirty with diverse tech stacks and has a proven track record of leading successful personal projects. Also, there is an advanced chatbot integrated to this website which can be accessible via a chat bot (bot icon in the navigation section). 
+                Also, excited to get my hands dirty with diverse tech stacks and has a proven track record of leading 6 successful projects. Also, there is an advanced chatbot integrated to this website which can be accessible via a chat bot (bot icon in the navigation section). 
                 Passionate about leveraging cutting-edge technologies, delivering impactful solutions and committed to driving innovation .
                 </p>
                 <div className="flex flex-col xl:flex-row  items-center gap-8">

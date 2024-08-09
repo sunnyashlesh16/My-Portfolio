@@ -1,7 +1,7 @@
 "use client";
 
 import CountUp from "react-countup"
-//I have solved 44 + leetcode problems, 6+ projects, and have 2+ years of experience.
+//Sunny has solved 44+ leetcode problems, completed 6+ projects, and has 2+ years of experience.
 
 const stats = [
     {

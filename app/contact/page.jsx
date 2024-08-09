@@ -44,6 +44,7 @@ export default function Contact ()  {
         body: formData
         });
         
+
         const data = await response.json();
 
         if (data.success) {
@@ -55,7 +56,8 @@ export default function Contact ()  {
         setResult(data.message);
         }
    }
-     
+   
+   
     return (
         <motion.section 
         initial={{opacity:0}} animate={{opacity:1, transition: {delay: 0.4, duration: 0.4, ease: "easeIn"}}}
@@ -104,7 +106,7 @@ export default function Contact ()  {
                                         <SelectItem value="Ai">
                                             Artificial Intelligence
                                         </SelectItem>
-                                        <SelectItem value="Data Engineering/ Science">
+                                        <SelectItem value="Data Engineering/Science">
                                             Data Engineering/Science
                                         </SelectItem>
                                     </SelectGroup>
