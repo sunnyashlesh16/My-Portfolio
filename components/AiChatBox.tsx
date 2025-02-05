@@ -82,7 +82,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
             <div className="mx-8 flex h-full flex-col items-center justify-center gap-3 text-center">
               <Bot size={28} />
               <p>
-                Hi, Feel free to ask anything you'd like to know about SUNNY. I'll do my best to provide accurate answers.
+                Hi There, Feel free to ask anything you'd like to know about SUNNY. I'll do my best to provide accurate answers.
               </p>
               <p className="text-sm text-white/40">
                 PS: If you want to learn how to build your own AI chatbot, check
