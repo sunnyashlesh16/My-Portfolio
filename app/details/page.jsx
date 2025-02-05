@@ -19,25 +19,25 @@ const experience = {
     title: 'My Experience',
     description: "",
     items: [
-        // {
-        //     company: "Hive",
-        //     position: "Full Stack Intern",
-        //     duration: "July 2024 - Present",     
-        // },
         {
-            company: "One Data Share",
-            position: "Research Student-Front End",
+            company: "Hive-Unified Collegiate Platform ",
+            position: "Full Stack Developer Intern",
+            duration: "June 2024 - August 2024",     
+        },
+        {
+            company: "One Data Share | IBM",
+            position: "Graduate Research Student",
             duration: "Jan 2024 - May 2024",     
         },
         {
             company: "Caterpillar",
-            position: "Software Engineer",
+            position: "Software Developer",
             duration: "Sep 2022 - July 2023",     
         },
         {
             company: "Cognizant",
-            position: "Automation Engineer",
-            duration: "Mar 2021 - Aug 2022",     
+            position: "Software  Engineer",
+            duration: "Feb 2021 - Sep 2022",     
         },
     ]
 };
@@ -45,6 +45,13 @@ const certifications = {
     title: 'My Certifications',
     description: "",
     items: [
+        {
+            company: "Developer Associate",
+            position: "AWS Certfified",
+            duration: "Dec 2024",
+            path: "/aws.pdf" ,
+            down: "aws.pdf"   
+        },
         {
             company: "Data Scientist Associate",
             position: "Microsoft Certfified",

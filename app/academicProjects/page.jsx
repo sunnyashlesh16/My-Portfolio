@@ -7,54 +7,60 @@ import { motion} from "framer-motion";
 const services = [
     {
         num:'01',
-        skills: 'C++, Socket, Networking Concepts',
-        title: 'Chat Application',
-        course: 'Modern Networking Concepts',
-        description: `Designed and implemented the client and server components of a TCP-based text chat application as part of a modern
-networking concepts course.
-The project involved socket programming using C/C++, handling multiple socket connections via the select() system
-call without multi-threading, and ensuring compatibility with dedicated hosts provided by the course.
-The application supports user login, message broadcasting, and private messaging, with all communications relayed
-through a central server.
-Additionally, implemented command-line interface functionality to display client lists, IP addresses, and handle user
-commands effectively.
-The project was divided into two stages, focusing initially on basic login functionality and later on advanced features
-such as message buffering for offline clients, client blocking/unblocking, and detailed statistics tracking.`,
+        skills: 'Database Systems, Algorithms, Data Structures, C++, DBMS',
+        title: 'TACO DB',
+        description: `Contributed to the development of a highly efficient DBMS by implementing POSIX-based file I/O, designed buffer
+management, and optimized data page structures for efficient record storage and retrieval.
+Designed an iterator-based query processor to handle selection, projection, and aggregation, improving execution
+efficiency for single-table queries.
+Built a B-Tree index system to enhance data retrieval speed, supporting efficient search, insertion, and deletion
+operations
+Implemented Cartesian product, sort-merge join, and index nested-loop join to optimize multi-table query
+execution and improve database performance.`,
         href: ""
     },
     {
         num:'02',
-        skills: 'Python, Stream Lit, ML, MongoDB',
-        title: 'Chicago Crimes Analysis',
-        description: `Choosen a real time crime dataset and done the needful data cleaning and data analysis to make the dataset preprocessed.
-Applied different machine learning algorithms using different random sampling methods to check the better accuracy.
-Using stream lit, developed a front-end application to replicate the steps like viewing the data, applying different algorithms, and
-sampling methods, getting the predicted values, and checking the accuracy.
-So, here we have developed a problem statement as the starting point and using python, feature importance, data processing, and
-machine learning (algorithms) we have predicted labels with better accuracies. This will help the police department to overcome
-certain issues and a few possible measures have been implemented as well.`,
-        course:'Data Intensive Computing',
-        href: "https://github.com/rahult18/Chicago-Crime-Analysis"
+        skills: 'C/C++, Sockets & TCP, Networking Concepts',
+        title: 'Modern Text Chat Application',
+        course: 'Modern Networking Concepts',
+        description: `Designed and implemented client-server components for reliable communication, leveraging the select() system call
+for efficient multi-socket handling in a single-threaded environment.
+Developed key user functionalities like login, message broadcasting, private messaging, and a centralized server for
+seamless interaction.
+Integrated a command-line interface with commands (LIST, IP, PORT, LOGIN, REFRESH, EXIT), message
+buffering for offline clients, client blocking/unblocking, and login tracking, enhancing user management and system
+robustness.
+Implemented three reliable transport protocols: ABT (stop-and-wait), GBN (sliding window with full
+retransmission on loss), and SR (selective retransmission of lost packets).`,
+        href: ""
     },
     {
         num:'03',
         title: 'Pint OS Implementation',
-        skills: 'C, Operating Systems',
-        description: `Implemented key components of a priority thread scheduler and system call handler in Pintos OS.
-Enhanced the thread scheduling mechanism by incorporating priority scheduling, alarm handling, and multi-level
-feedback queue scheduling (MLFQS), ensuring efficient CPU utilization.
-Developed and tested system call functionality, including argument passing and handling exit/write operations,
-demonstrating strong problem-solving skills and proficiency in low-level programming.`,
+        skills: 'C, Operating Systems, Threading, Scheduling, System Calls',
+        description: `Developed a priority thread scheduler with FIFO, preemption, and dynamic priority changes to enhance thread
+management and system responsiveness.
+Optimized thread sleep behavior by removing busy-waiting loops, improving CPU utilization.
+Solved priority inversion with priority donation and implemented the Multi-Level Feedback Queue Scheduler
+(MLFQS) for dynamic priority adjustments.
+Enabled argument passing and system call handling in Pintos, supporting commands like ‘exit’ and ‘write’ with
+error handling and stack-based argument passing for seamless execution`,
         href: ""
     },
     {
         num:'04',
-        skills: 'JS, HTML, CSS, ReactJS, MUI',
-        title: 'One Data Share',
+        skills: 'ReactJS, SpringBoot, MongoDB, JUnit, Docker, Log4j, Spring security',
+        title: 'One Data Share | IBM',
         description: `
-Worked on the Design System of OneDataShare by providing front-end support to their website.
-Handled different Material UI components in developing the website.
-Explored many other features in React and integrated new enhancements to the components`,
+Contributed to a research project developing a Spring Boot-based microservices backend and a React frontend,
+ensuring scalability and efficiency.
+Designed and implemented key microservices using Spring MVC, JPA, Spring Security, JWT
+authentication, and MongoDB for secure and efficient data handling.
+Integrated Eureka Server for service discovery, containerized microservices with Docker, leveraged Log4j for
+efficient logging, and utilized Lombok to reduce boilerplate code.
+Enhanced API reliability with JUnit, TestNG, and MockMVC testing, while documenting services using
+Swagger for clear API communication`,
         href: ""
     },
     {
@@ -72,7 +78,20 @@ demonstration and in-depth technical interview to validate the project outcomes.
 `,
         href: ""
     },
-
+    {
+        num:'06',
+        skills: 'Python, Stream Lit, ML, MongoDB',
+        title: 'Chicago Crimes Analysis',
+        description: `Choosen a real time crime dataset and done the needful data cleaning and data analysis to make the dataset preprocessed.
+Applied different machine learning algorithms using different random sampling methods to check the better accuracy.
+Using stream lit, developed a front-end application to replicate the steps like viewing the data, applying different algorithms, and
+sampling methods, getting the predicted values, and checking the accuracy.
+So, here we have developed a problem statement as the starting point and using python, feature importance, data processing, and
+machine learning (algorithms) we have predicted labels with better accuracies. This will help the police department to overcome
+certain issues and a few possible measures have been implemented as well.`,
+        course:'Data Intensive Computing',
+        href: "https://github.com/rahult18/Chicago-Crime-Analysis"
+    }
 ]
 
 const Services = () => {

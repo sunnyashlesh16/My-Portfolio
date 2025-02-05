@@ -14,6 +14,72 @@ import Link from "next/link";
 const projects = [
     {
         num:'01',
+        category: 'Advanced DevSecOps Pipeline',
+        title: '',
+        description:`Designed and deployed a scalable Three-Tier architecture on AWS EKS, automating infrastructure with Terraform
+& integrating DevSecOps best practices using OWASP Dependency Check, Trivy, and SonarQube in CI/CD.
+• Developed Jenkins pipelines for app deployment (Docker, security scans, ECR, ArgoCD) and EKS management
+(Terraform LifeCycle). Set up Prometheus & Grafana for monitoring and cost optimization using CAST AI.
+• Established a jump server for secure cluster access and management. Configured Kubernetes networking & security
+with NGINX Ingress, AWS ALB, IAM, Secrets, and Kyverno. Leveraged ArgoCD for GitOps-driven deployments.
+`,
+        stack:[
+            {
+                name: "Jenkins"
+            },
+            {
+                name: "AWS"
+            },
+            {
+                name: "ArgoCD"
+            },
+            {
+                name: "Terraform"
+            },
+            {
+                name:"Prometheus & Grafana"
+            }
+        ],
+        live: "",
+        github: 'https://github.com/sunnyashlesh16',
+    },
+    {
+        num:'02',
+        category: 'Real Time Data Warehousing',
+        title: '',
+        description:`Designed and implemented a real-time ETL data warehouse architecture leveraging Apache Airflow, Kafka, and
+Apache Pinot to support both batch and streaming data pipelines.
+Developed custom Apache Airflow hooks to seamlessly integrate Kafka and Apache Pinot, enhancing real-time data
+ingestion and ETL efficiency.
+Optimized data visualization and reporting by integrating Apache Pinot with Kafka and building insightful
+dashboards in Apache Superset, utilizing dimensional modeling for improved data organization and analytics.
+Deployed project applications, including Apache Airflow, Kafka, Apache Pinot, and Apache Superset, using Docker
+containers orchestrated via Docker Compose`,
+        stack:[
+            {
+                name: "Apach Kafka"
+            },
+            {
+                name: "Apache Airflow"
+            },
+            {
+                name: "Apache Pinot"
+            },
+            {
+                name: "Apache Superset"
+            },
+            {
+                name:"Python"
+            },
+            {
+                name:"Docker"
+            }
+        ],
+        live: "",
+        github: 'https://github.com/sunnyashlesh16/datawarehouse',
+    },
+    {
+        num:'03',
         category: 'FullStack Project',
         title: 'Beat Box',
         description:`Developed a full-stack Beat Box Application leveraging Next.js 13.4 and React for a responsive user interface, styled with Tailwind CSS.
@@ -47,7 +113,7 @@ Managed real-time data synchronization between server and client components, ens
     },
 
     {
-        num:'02',
+        num:'04',
         category: 'Ai Portfolio',
         title: 'My Portfolio',
         description:`Developed a dynamic Next.js 14 & React application featuring advanced AI integrations and modern styling with Tailwind css. 
@@ -76,6 +142,35 @@ Incorporated chat history management and caching with Upstash Redis for improved
         ],
         live: "/",
         github: "https://github.com/sunnyashlesh16/My-Portfolio",
+    },
+
+    {
+        num:'05',
+        category: 'SheRise',
+        title: 'Women’s Finance Hub',
+        description:`Developed a full-stack web and mobile application using Android Studio with Java for the mobile app and Flask with MySQL for the backend, leveraging RESTful APIs to streamline loan applications, enhance financial management for women beneficiaries, and ensure a seamless user experience across all platforms.
+Implemented key features such as role-based access control, real-time loan application tracking, and a secure live chat system, improving loan processing efficiency and user engagement.
+        `,
+        stack:[
+            {
+                name: "Android Studio"
+            },
+            {
+                name: "Java"
+            },
+            {
+                name: "Python"
+            },
+            {
+                name: "Flask"
+            },
+            {
+                name: "JavaScript"
+            }
+
+        ],
+        live: "/",
+        github: "https://github.com/sunnyashlesh16/she-rise",
     },
 ]
 
