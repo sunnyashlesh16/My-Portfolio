@@ -30,9 +30,8 @@ const Home = () => {
                 DevOps, and CI/CD pipelines for efficient software delivery. Expertise extends beyond full-stack
                 development to include hands-on experience in DevOps, Data Engineering, and Distributed Systems,
                 gained through personal projects and system-building efforts in academic projects.
-                Driven by a passion for continuous learning and innovation, with a keen interest in exploring Large Language Models (AI),
-                distributed systems, application security, and software delivery. Dedicated to turning innovative ideas
-                into impactful solutions, driven by a relentless pursuit of excellence in a fast-evolving tech landscape. Also, there is an advanced chatbot integrated to this website which can be accessible via a chat bot (bot icon in the navigation section). 
+                Driven by a passion for continuous learning, with a keen interest in exploring Large Language Models (AI),
+                distributed systems, application security, and software delivery. Also, there is an advanced chatbot integrated to this website which can be accessible via a chat bot (bot icon in the navigation section). 
                 </p>
                 <div className="flex flex-col xl:flex-row  items-center gap-8">
                   <Button >
