@@ -42,7 +42,7 @@ const MobileNav = () => {
                 <MdMenuBook className=" text-[32px] text-white"></MdMenuBook>
             </SheetTrigger>
             <SheetContent className="flex flex-col">
-                <div className='mt-32 mb-40 text-center text-2xl'>
+                <div className='mt-10 mb-20 text-center text-2xl'>
                     <Link href="/">
                         {/* <h1 className='text-4xl font-semibold'>
                             SUNNY
@@ -60,7 +60,7 @@ const MobileNav = () => {
                     )
                    })}
                 </nav>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mt-10">
                 <AiChatButton/>
                 {/* <ThemeToggle /> */}
                 </div>
