@@ -41,7 +41,7 @@ with NGINX Ingress, AWS ALB, IAM, Secrets, and Kyverno. Leveraged ArgoCD for Git
             }
         ],
         live: "",
-        github: 'https://github.com/sunnyashlesh16',
+        github: 'https://github.com/sunnyashlesh16/devsecops-pipeline',
     },
     {
         num:'02',
