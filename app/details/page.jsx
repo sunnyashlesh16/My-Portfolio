@@ -21,12 +21,12 @@ const experience = {
     items: [
         {
             company: "Hive-Unified Collegiate Platform ",
-            position: "Full Stack Developer Intern",
+            position: "Full Stack Developer",
             duration: "June 2024 - August 2024",     
         },
         {
             company: "One Data Share | IBM",
-            position: "Graduate Research Student",
+            position: "Full Stack Developer",
             duration: "Jan 2024 - May 2024",     
         },
         {

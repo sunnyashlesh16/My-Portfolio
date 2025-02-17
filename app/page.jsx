@@ -26,7 +26,7 @@ const Home = () => {
                 </h1>
                 <p className="max-w-[600px] mb-6 text-white/80">
                 Results-driven Software Engineer with 3+ years of experience developing scalable full-stack applications using
-                Node.js, React, Next.js, Java, Spring Boot, and SQL/NoSQL databases, with expertise in Azure
+                Node.js, React, Next.js, TypeScript, Java, Spring Boot, and SQL/NoSQL databases, with expertise in Azure
                 DevOps, and CI/CD pipelines for efficient software delivery. Expertise extends beyond full-stack
                 development to include hands-on experience in DevOps, Data Engineering, and Distributed Systems,
                 gained through personal projects and system-building efforts in academic projects.
