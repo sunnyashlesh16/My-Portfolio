@@ -14,17 +14,17 @@ const info = [
     {
         icon: <FaPhoneAlt/>,
         title: "Phone",
-        description: "+1 716 256 5073"
+        description: "+1 716 647 5943"
     },
     {
         icon: <FaEnvelope/>,
         title: "Email",
-        description: "saisunny@buffalo.edu"
+        description: "sunnyashlesh26@gmail.com"
     },
     {
         icon: <FaMapMarkerAlt/>,
         title: "Address",
-        description: "Buffalo, NY, USA."
+        description: "United States."
     },
 ]
 
