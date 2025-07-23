@@ -22,20 +22,14 @@ const Home = () => {
                     repeat={Infinity}
                 />
                 <h1 className="h1">
-                  Hello I'm <br/> <span className="text-accent">Sai Sunny Aashlesh Togarucheeti</span>
+                  Hello I'm <br/> <span className="text-accent">Sai Sunny Togarucheeti</span>
                 </h1>
                 <p className="max-w-[600px] mb-6 text-white/80">
-                Results-driven Software Engineer with 3+ years of experience developing scalable full-stack applications using
-                Node.js, React, Next.js, TypeScript, Java, Spring Boot, and SQL/NoSQL databases, with expertise in Azure
-                DevOps, AWS, and CI/CD pipelines for efficient software delivery. Expertise extends beyond full-stack
-                development to include hands-on experience in DevOps, Data Engineering, and Distributed Systems,
-                gained through personal projects and system-building efforts in academic projects.
-                Driven by a passion for continuous learning, with a keen interest in exploring Large Language Models (AI),
-                distributed systems, application security, and software delivery. Also, there is an advanced chatbot integrated to this website which can be accessible via a chat bot (bot icon in the navigation section). 
+                With over 3 years of professional experience, I’ve had the opportunity to work across diverse industries from pharmacy to clean energy, building scalable, full-stack applications and delivering impactful solutions. My journey began at Cognizant, where I contributed to secure, high-transaction systems for CVS Pharmacy using React, Spring Boot, and AWS. At Caterpillar, I enhanced internal tools with accessible UI/UX practices and advanced DevOps workflows. During my time as a Graduate Assistant at IBM and OneDataShare, I architected cloud-native microservices with Spring Boot, MongoDB, and Docker, and led real-time interface development with React and WebSockets. I’ve also played a foundational role at Exergy, building a solar analytics platform with Next.js and Supabase. Across each role, I’ve consistently leveraged modern frameworks and CI/CD practices to accelerate development cycles and improve user experiences.
                 </p>
                 <div className="flex flex-col xl:flex-row  items-center gap-8">
                   <Button >
-                    <a href="/resume.pdf" download="resume.pdf">
+                    <a href="/resume.pdf" download="sunny.pdf">
                       Download CV
                     </a>
                     <FiDownload className="text-xl"/>

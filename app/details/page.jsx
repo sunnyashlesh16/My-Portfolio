@@ -20,8 +20,18 @@ const experience = {
     description: "",
     items: [
         {
-            company: "Hive-Unified Collegiate Platform ",
+            company: "Deloitte",
             position: "Full Stack Developer",
+            duration: "Apr 2025 - Present",     
+        },
+        {
+            company: "Exergy",
+            position: "Founding Engineer",
+            duration: "Dec 2024 - Apr 2025",     
+        },
+        {
+            company: "Hive-Unified Collegiate Platform ",
+            position: "Full Stack Developer Intern",
             duration: "June 2024 - August 2024",     
         },
         {
@@ -31,7 +41,7 @@ const experience = {
         },
         {
             company: "Caterpillar",
-            position: "Software Developer",
+            position: "Front end Developer",
             duration: "Sep 2022 - July 2023",     
         },
         {
