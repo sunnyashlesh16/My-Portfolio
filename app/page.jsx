@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="flex flex-col xl:flex-row  items-center gap-8">
                   <Button >
                     <a href="/resume.pdf" download="sunny.pdf">
-                      Download CV
+                      Download Resume
                     </a>
                     <FiDownload className="text-xl"/>
                   </Button>
