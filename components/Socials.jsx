@@ -6,7 +6,7 @@ import { SiBento } from "react-icons/si";
 
 const socials = [
     {icon: <FaGithub/>, path: "https://github.com/sunnyashlesh16"},
-    {icon: <FaLinkedinIn/>, path: "https://www.linkedin.com/in/sai-sunny-aashlesh-togarucheeti-336309297/"},
+    {icon: <FaLinkedinIn/>, path: "https://www.linkedin.com/in/sai-sunny-aashlesh-togarucheeti-336309297"},
     {icon: <SiBento/>, path: "https://bento.me/saisunny"},
     {icon: <FaInstagram/>, path: "https://www.instagram.com/saisunny_16"},
 ];

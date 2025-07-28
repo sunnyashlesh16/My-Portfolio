@@ -12,8 +12,75 @@ import WorkSliderBtns from "@/components/WorkSliderBtns"
 import Link from "next/link";
 
 const projects = [
-    {
+      {
         num:'01',
+        category: 'Distributed File System',
+        title: '',
+        description:`- Developed a fully distributed, decentralized content-addressable file storage system, capable of handling and streaming very large files for high availability and data durability. 
+- Built a TCP-based Peer-to-Peer (P2P) networking system with a custom transport layer, enabling decentralized, secure communication between nodes via bi-directional messaging and streaming. 
+- Designed and implemented POST and GET APIs for efficient file storage and retrieval. 
+- Developed a file replication mechanism, distributing files across peer nodes to enhance availability and fault tolerance. 
+- Implemented encryption and decryption to secure data during transmission and encoding/decoding(gob) for optimized communication. 
+- Enabled multi-writer support, allowing multiple nodes to write data concurrently while maintaining consistency. 
+- Introduced a control frame using bit messages to distinguish between messaging and streaming operations. 
+- Utilized waiting groups to efficiently synchronize and manage parallel operations. 
+- Future enhancements will include adding update and delete operations.
+`,
+        stack:[
+            {
+                name: "Go"
+            },
+            {
+                name: "Distributed Systems"
+            },
+            {
+                name: "Networking concepts"
+            }
+        ],
+        live: "",
+        github: 'https://github.com/sunnyashlesh16/go-distributedFileSystem',
+    },
+    {
+        num:'02',
+        category: 'Voice Ai & Conversational AI Agents',
+        title: '',
+        description:`Voice AI Agent:
+Configures a Twilio phone number to forward calls, encoding audio as base64 and sending it to a server via ngrok. ngrok forwards audio to a local Flask application, which greets the caller and handles the call flow using Twiml. Streams audio to a WebSocket route, decodes base64, and sends it to AssemblyAI for transcription using the Mulawa algorithm. AssemblyAI processes audio in real-time, printing partial and final transcripts on the terminal.
+---
+Conversational AI Agent:
+Eleven Labs generates an audio greeting streamed to the customer. Customer inputs are captured via microphone, transcribed by AssemblyAI. Transcribed text is passed to the Gemini pro model, which generates a response. The response is converted to speech by Eleven Labs and played back to the user.
+Plans to add features like managing database queries and booking appointments.
+
+Future Enhacements:
+These projects can be extended to improve various functionalities in the future like adding a conversational way, booking, creating events in calendar, and db setup.
+
+System Design:
+https://lucid.app/lucidchart/808b5a91-18ee-4360-a9ba-c90918fffde4/view`,
+        stack:[
+            {
+                name: "Gemini AI"
+            },
+            {
+                name: "Python"
+            },
+            {
+                name: "Twilio"
+            },
+            {
+                name: "AssemblyAI"
+            },
+            {
+                name:"Flask"
+            },
+            {
+                name:"Eleven Labs"
+            }
+        ],
+        live: "",
+        github: 'https://github.com/sunnyashlesh16/voice-ai-agent',
+    },
+    {
+        num:'03',
         category: 'Advanced DevSecOps Pipeline',
         title: '',
         description:`Designed and deployed a scalable Three-Tier architecture on AWS EKS, automating infrastructure with Terraform
@@ -44,7 +111,7 @@ with NGINX Ingress, AWS ALB, IAM, Secrets, and Kyverno. Leveraged ArgoCD for Git
         github: 'https://github.com/sunnyashlesh16/devsecops-pipeline',
     },
     {
-        num:'02',
+        num:'04',
         category: 'Real Time Data Warehousing',
         title: '',
         description:`Designed and implemented a real-time ETL data warehouse architecture leveraging Apache Airflow, Kafka, and
@@ -79,7 +146,7 @@ containers orchestrated via Docker Compose`,
         github: 'https://github.com/sunnyashlesh16/datawarehouse',
     },
     {
-        num:'03',
+        num:'05',
         category: 'FullStack Project',
         title: 'Beat Box',
         description:`Developed a full-stack Beat Box Application leveraging Next.js 13.4 and React for a responsive user interface, styled with Tailwind CSS.
@@ -113,7 +180,7 @@ Managed real-time data synchronization between server and client components, ens
     },
 
     {
-        num:'04',
+        num:'06',
         category: 'Ai Portfolio',
         title: 'My Portfolio',
         description:`Developed a dynamic Next.js 14 & React application featuring advanced AI integrations and modern styling with Tailwind css. 
@@ -145,7 +212,7 @@ Incorporated chat history management and caching with Upstash Redis for improved
     },
 
     {
-        num:'05',
+        num:'07',
         category: 'SheRise',
         title: 'Women’s Finance Hub',
         description:`Developed a full-stack web and mobile application using Android Studio with Java for the mobile app and Flask with MySQL for the backend, leveraging RESTful APIs to streamline loan applications, enhance financial management for women beneficiaries, and ensure a seamless user experience across all platforms.
