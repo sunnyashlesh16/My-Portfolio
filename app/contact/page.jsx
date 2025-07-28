@@ -104,7 +104,7 @@ export default function Contact ()  {
                                             Full Stack
                                         </SelectItem>
                                         <SelectItem value="Ai">
-                                            Artificial Intelligence
+                                            Gen AI
                                         </SelectItem>
                                         <SelectItem value="Data Engineering/Science">
                                             Data Engineering/Science
