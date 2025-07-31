@@ -16,13 +16,13 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
               <div className="text-center xl:text-left order-2 xl:order-none">
                 <TypeAnimation className="text-xl"
-                    sequence={["Software Developer", 1000, "Web Developer", 1000, "Full stack developer", 1000, "Backend Engineer", 1000,]}
+                    sequence={["Software Developer", 1000, "Frontend Developer", 1000, "Full stack developer", 1000, "Backend Engineer", 1000,]}
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
                 />
                 <h1 className="h1">
-                  Hello I'm <br/> <span className="text-accent">Sai Sunny Togarucheeti</span>
+                  Hello, I'm <br/> <span className="text-accent">Sai Sunny Togarucheeti</span>
                 </h1>
                 <p className="max-w-[600px] mb-6 text-white/80">
                 With over 3 years of professional experience, I’ve had the opportunity to work across diverse industries from pharmacy to clean energy, building scalable, full-stack applications and delivering impactful solutions. My journey began at Cognizant, where I contributed to secure, high-transaction systems for CVS Pharmacy using React, Spring Boot, and AWS. At Caterpillar, I enhanced internal tools with accessible UI/UX practices and advanced DevOps workflows. During my time as a Graduate Assistant at IBM and OneDataShare, I architected cloud-native microservices with Spring Boot, MongoDB, and Docker, and led real-time interface development with React and WebSockets. I’ve also played a foundational role at Exergy, building a solar analytics platform with Next.js and Supabase. Across each role, I’ve consistently leveraged modern frameworks and CI/CD practices to accelerate development cycles and improve user experiences.
