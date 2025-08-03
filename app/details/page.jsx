@@ -36,12 +36,12 @@ const experience = {
         },
         {
             company: "One Data Share | IBM",
-            position: "Full Stack Developer",
+            position: "Software Developer",
             duration: "Jan 2024 - May 2024",     
         },
         {
             company: "Caterpillar",
-            position: "Front end Developer",
+            position: "Software Developer",
             duration: "Sep 2022 - July 2023",     
         },
         {
